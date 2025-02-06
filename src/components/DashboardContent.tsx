@@ -175,7 +175,7 @@ const OrderRow = ({ _id, customer, user, status, total, date }: { _id: string; u
 );
 
 const ProductCard = ({ product }: { product: Product }) => ( 
-  <div className="bg-white rounded-lg shadow-md p-4"> 
+  <div className="bg-white rounded-lg  shadow-md p-4"> 
     <h3 className="text-lg font-semibold mb-2">{product.title}</h3> 
     {product.productImage && product.productImage.asset && ( 
       <div className="relative h-48 mb-4"> 

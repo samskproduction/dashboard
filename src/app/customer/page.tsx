@@ -52,7 +52,7 @@ export default async function CustomersContent() {
           </tr>
         </thead>
         <tbody>
-          {response?.map((customer) => (
+          {response.map((customer) => (
             <tr key={customer._id} className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">
                 {customer.details.firstName} {customer.details.lastName}
