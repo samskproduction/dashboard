@@ -1,6 +1,4 @@
-import { UserButton, useUser } from "@clerk/nextjs"
-import { Bell, Search, User } from "lucide-react"
-
+import { UserButton } from "@clerk/nextjs"
 const Header = () => {
   return (
     <header className="bg-white shadow-md py-4 px-4">
